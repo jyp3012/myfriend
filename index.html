@@ -32,16 +32,30 @@
     .buheung{
       color: navy;
     }
-    
+
     #grid{
       display: grid;
       grid-template-columns: 150px 1fr;
+      grid-template-rows:
     }
     #grid ul{
       padding-left: 32px
+
     }
     #grid #article{
       padding: 25px
+    }
+    @media(max-width: 800px){
+      #grid{
+        display: block;
+      }
+      ul{
+        border-right: none;
+      }
+      h1{
+        border-bottom: none;
+      }
+
     }
   </style>
 </head>
@@ -59,14 +73,29 @@
   </ul>
   <div id="article">
     <h2>아비생일계</h2>
-    <strong>친구들과 추억을 공유</strong>하기 위해서 웹사이트를 만들어봅니다.
+    <strong>친구들과 추억을 공유</strong>하기 위해서 사진첩을 만들어봅니다.
     <p><p style = "margin-top:45px;">
     부흥고 기장고를 관통하는 pc방 아이비스에 모여 우리가 지금까지 놀며 공유했던 추억을 소개합니다.
     </p>
     <p>
-    <img src="together01.jpg" width="300px" height="200px">
-    <img src="together02.jpg" width="300px" height="200px">
-    <img src="outback.jpeg" width="300px" height="200px">
+      <img src="img/together01.jpg" width="300px" height="200px">
+      <img src="img/together02.jpg" width="300px" height="200px">
+      <img src="img/outback.jpeg" width="300px" height="200px">
+    </p>
+    <p>
+      <img src="img/jeju01.jpeg" width="300px" height="200px">
+      <img src="img/jeju02.jpeg" width="300px" height="200px">
+      <img src="img/jeju03.jpeg" width="300px" height="200px">
+    </p>
+    <p>
+      <img src="img/jeju04.jpeg" width="300px" height="200px">
+      <img src="img/jeju05.jpeg" width="300px" height="200px">
+      <img src="img/together03.jpeg" width="300px" height="200px">
+    </p>
+    <p>
+      <img src="img/jeju07.jpg" width="300px" height="200px">
+      <img src="img/jeju08.jpg" width="300px" height="200px">
+      <img src="img/jeju06.jpg" width="300px" height="200px">
     </p>
     <p>
       <div id="disqus_thread"></div>
@@ -92,20 +121,6 @@
   </div>
 </div>
 
-<p>
-
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/61550ba625797d7a89018142/1fgq3b152';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-</p>
+ㄴ
 </body>
 </html>

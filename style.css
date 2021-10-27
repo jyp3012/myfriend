@@ -1,0 +1,53 @@
+body{
+ margin: 0;
+
+}
+/* inline element*/
+ a {
+   color: black;
+   text-decoration: none;
+ }
+ /*block level element*/
+ h1 {
+   text-align: center;
+   border-bottom: 3px solid skyblue;
+   margin: 0;
+   padding: 20px;
+ }
+ ul {
+   border-right: 2px solid skyblue;
+   width: 100px;
+   margin: 0;
+   padding: 20px;
+ }
+ .gigang{
+   color: gray;
+ }
+ .buheung{
+   color: navy;
+ }
+
+ #grid{
+   display: grid;
+   grid-template-columns: 150px 1fr;
+   grid-template-rows:
+ }
+ #grid ul{
+   padding-left: 32px
+
+ }
+ #grid #article{
+   padding: 25px
+ }
+ @media(max-width: 800px){
+   #grid{
+     display: block;
+   }
+   ul{
+     border-right: none;
+   }
+   h1{
+     border-bottom: none;
+   }
+
+ }
